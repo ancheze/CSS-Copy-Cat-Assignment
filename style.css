@@ -1,0 +1,195 @@
+* { 
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0; 
+}
+
+.body {
+    font-family: "proxima-nova", sans-serif;
+}
+
+.header .navbar li {
+    display: inline-block;
+}
+
+.header {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    overflow: hidden;
+}
+
+.header .logo {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    z-index: 1;
+}
+
+header, .navbar li {
+    background-color: #188137;
+}
+
+.navbar {
+    color: #fff;
+}
+
+nav {
+    text-transform: uppercase;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-family: "proxima-nova", sans-serif;
+}
+
+.navbar li {
+    text-align: center;
+    padding-right: 30px;
+}
+
+.headliner {
+    position: relative;
+    margin-bottom: -5px;
+}
+
+.headliner img {
+    max-width: 100%;
+}
+
+section:not(.products) {
+    background-color: #188137;
+    color: #fff;
+}
+
+h1, h2, h3, h4 {
+    font-family: "futura-pt-bold", sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 0;
+}
+
+section {
+    padding: 75px 0;
+    margin: 0;
+    text-align: center;
+    line-height: 1.6;
+
+}
+
+h1 {
+    font-size: 3.0rem;
+    line-height: 1.6;
+
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.container h1 {
+    padding-left: 30px;
+    padding-right: 30px;;
+}
+
+.container h3 {
+    font-size: 2rem;
+}
+
+.products h3, #footer {
+    color: #188137;
+}
+
+.products h3 {
+    text-align: left;
+    text-transform: uppercase;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.product-container { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product {
+    padding: 25px;
+    text-align: center;
+    margin: 10px;
+}
+
+.product-container .product a {
+    text-decoration: none;
+    font-family: "proxima-nova", sans-serif;
+    font-size: 14px;
+}
+
+.product-container .product span {
+    display: block;
+    margin: 0 auto;
+    max-width: 175px;
+}
+
+.product-container .product img {
+    padding: 0 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 150px;
+}
+
+img {
+    vertical-align: middle;
+    border: 0;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer .logo {
+    margin: 15% auto;
+    width: 150px;
+}
+
+.footer-navbar a {
+    font-size: 12px;
+    font-weight: bold;
+    color: #188137;
+}
+
+.footer-navbar li {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding-right: 30px;
+}
+
+.footer-navbar ul {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.credit {
+    color: #188137;
+    font-family: "proxima-nova", sans-serif;
+    font-size: 9px;
+}
+
+@media screen and (max-width: 768px){
+.container h1  {
+    font-size: 2rem
+}
+}
